@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:100,400,700');
+
+body, html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('images/hero-image.jpg') right 20%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width:100%;
+  height:100%;
+}
+
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Exo', sans-serif;
+}
+
+.hero-text h1 {
+  color: rgb(40, 40, 40);
+  font-size: 45px;
+  font-weight: 100;
+  text-align: center;
+  line-height: 1.25;
+}
+
+.hero-text button {
+  border-radius: 3px;
+  background-color: rgb(255, 109, 109);
+}
+
+.hero-text .hero-button {
+  cursor: pointer;
+  font-size: 14px;
+  background: rgba(255, 109, 109);
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  padding: 14px 60px;
+}
+
+.hero-text p {
+  font-size: 14px;
+  color: rgba(40, 40, 40, 0.6);
+}
