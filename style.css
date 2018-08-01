@@ -65,13 +65,13 @@ body, html {
   padding: 20px 100px;
 }
 
-.new-design-first .label-text {
+.label-text {
   font-size: 16px;
   color: rgb(255, 109, 109);
   text-transform: uppercase;
 }
 
-.new-design-first .h-text {
+.h-text {
   font-size: 40px;
   color: rgb(40, 40, 40);
 }
@@ -91,4 +91,81 @@ body, html {
   background-size: cover;
   width: 568px;
   height: 724px;
+}
+
+.new-feature-first {
+  background: url('images/new-features-bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 120px 20px;
+}
+
+.header-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 80px;
+}
+
+.some-features-wrapper {
+  display: flex;
+}
+
+.some-feature-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.some-feature-block .some-feature-logo {
+  background-repeat: no-repeat;
+  width: 65px;
+  height: 65px;
+  margin-bottom: 25px;
+}
+
+.some-feature-block .some-feature-logo.logo1 {
+  background: url('images/photos.png');
+  background-size: cover;
+}
+
+.some-feature-block .some-feature-logo.logo2 {
+  background: url('images/airplane.png');
+  background-size: cover;
+}
+
+.some-feature-block .some-feature-logo.logo3 {
+  background: url('images/bulb.png');
+  background-size: cover;
+}
+
+.some-feature-block .some-feature-header {
+  font-size: 22px;
+  color: rgb(40, 40, 40);
+}
+
+.some-feature-block .some-feature-text {
+  font-size: 14px;
+  color: rgba(40, 40, 40, 0.659);
+  text-align: center;
+}
+
+
+
+
+.block-with-logos {
+  background: url('images/bg-logos-box.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.block-with-logos .logo1 {
+  background: url('images/logos/partner-logo-1.png');
+  background-repeat: no-repeat;
+  width: 130px;
+  height: 60px;
 }
