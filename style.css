@@ -62,9 +62,16 @@ body, html {
   flex-direction: column;
   justify-content: center;
   width: 60%;
-  padding: 20px 100px;
+  padding: 150px 100px;
 }
 
+.new-design-first .right-block {
+  background: url('images/rectangle-one.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 40%;
+  height: auto;
+}
 .label-text {
   font-size: 16px;
   color: rgb(255, 109, 109);
@@ -72,11 +79,11 @@ body, html {
 }
 
 .h-text {
-  font-size: 40px;
+  font-size: 36px;
   color: rgb(40, 40, 40);
 }
 
-.new-design-first .h-text span {
+.dots {
   color: rgb(255, 109, 109);
 }
 
@@ -85,21 +92,13 @@ body, html {
   color: rgba(40, 40, 40, 0.659);
 }
 
-.new-design-first .right-block {
-  background: url('images/rectangle-one.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 568px;
-  height: 724px;
-}
-
 .new-feature-first {
   background: url('images/new-features-bg1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding: 120px 20px;
+  padding: 120px 40px;
 }
 
 .header-block {
@@ -154,7 +153,30 @@ body, html {
   text-align: center;
 }
 
+.new-design-second {
+  display: flex;
+}
 
+.new-design-second .left-block {
+  background: url('images/macbook.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 40%;
+  height: auto;
+}
+
+.new-design-second .right-block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 60%;
+  padding: 70px 100px 70px 10px;
+}
+
+.new-design-second p {
+  font-size: 14px;
+  color: rgba(40, 40, 40, 0.659);
+}
 
 
 .block-with-logos {
