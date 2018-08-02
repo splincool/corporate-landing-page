@@ -79,7 +79,7 @@ body, html {
 }
 
 .h-text {
-  font-size: 32px;
+  font-size: 34px;
   color: rgb(40, 40, 40);
 }
 
@@ -307,7 +307,7 @@ body, html {
   text-indent: 20px;
 }
 
-::placeholder {
+.form-wrapper input::placeholder {
   color: rgb(246, 245, 243);
   opacity: 1; 
 }
@@ -323,6 +323,21 @@ body, html {
   text-decoration: underline;
 }
 
+.sale-wrapper {
+  position: relative;
+}
+
+.sale-text {
+  background: url('images/arrow.png');
+  background-repeat: no-repeat;
+  color: rgb(246, 245, 243);
+  position: absolute;
+  top: -52px;
+  left: -2px;
+  padding-left: 30px;
+  padding-bottom: 22px;
+}
+
 .try-btn {
   cursor: pointer;
   border: 1px solid rgb(255, 109, 109);
@@ -336,4 +351,96 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 75px 100px;
+}
+
+.footer .footer-block {
+  margin-right: 60px;
+  font-size: 14px;
+  color: rgba(40, 40, 40, 0.561);
+  line-height: 2;
+}
+
+.footer .header {
+  font-size: 22px;
+  color: rgb(40, 40, 40);
+  line-height: 2;
+}
+
+.start-ex .start-logo {
+  background: url('images/start-ex.png');
+  width: 103px;
+  height: 47px;
+}
+
+.email-wrapper input {
+  width: 216px;
+  height: 40px;
+  background-color: #f6f6f6;
+  border: 1px solid #b8b8bf;
+  border-radius: 3px 0 0 3px;
+  font-size: 14px;
+  text-indent: 10px;
+}
+
+
+.email-wrapper {
+  display: flex;
+}
+
+.email-wrapper .email-btn {
+  width: 52px;
+  height: 44px;
+  background: url('images/mail-icon.png');
+  background-color: #ff6d6d;
+  margin: 0px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 0 3px 3px 0;
+  cursor: pointer;
+}
+
+.media-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.media-icons div {
+  margin-right: 15px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.media-icons .dribble {
+  background: url('images/social/dribbble.png');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 21px;
+}
+
+.media-icons .facebook {
+  background: url('images/social/facebook.png');
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 21px;
+}
+
+.media-icons .google {
+  background: url('images/social/googleplus.png');
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 17px;
+}
+
+.media-icons .twitter {
+  background: url('images/social/twitter.png');
+  background-repeat: no-repeat;
+  width: 19px;
+  height: 17px;
 }
