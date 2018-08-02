@@ -73,13 +73,13 @@ body, html {
   height: auto;
 }
 .label-text {
-  font-size: 14px;
+  font-size: 13px;
   color: rgb(255, 109, 109);
   text-transform: uppercase;
 }
 
 .h-text {
-  font-size: 36px;
+  font-size: 32px;
   color: rgb(40, 40, 40);
 }
 
@@ -270,7 +270,7 @@ body, html {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  padding: 100px 340px 250px 340px;
+  padding: 75px 340px 250px 340px;
   line-height: 2;
 }
 
@@ -278,4 +278,62 @@ body, html {
   text-align: center;
   font-size: 14px;
   color: rgba(40, 40, 40, 0.659);
+}
+
+.new-feature-third {
+  background: #323969;
+  padding: 75px 140px;
+}
+
+.new-feature-third .h-text {
+  color: #fff;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper input {
+  margin-right: 30px;
+  background: #464c77;
+  border-radius: 3px;
+  border: 1px solid #999cb4;
+  color: rgb(246, 245, 243);
+  font-size: 14px;
+  width: 263px;
+  height: 45px;
+  text-indent: 20px;
+}
+
+::placeholder {
+  color: rgb(246, 245, 243);
+  opacity: 1; 
+}
+
+.terms-text {
+  text-align: center;
+  color: rgba(246, 245, 243, 0.6);
+  font-size: 12px;
+  margin-top: 50px;
+}
+
+.terms-text span {
+  text-decoration: underline;
+}
+
+.try-btn {
+  cursor: pointer;
+  border: 1px solid rgb(255, 109, 109);
+  border-radius: 3px;
+  background-color: rgb(255, 109, 109);
+  box-shadow: 0px 3px 3px 0px rgba(14, 15, 15, 0.25);
+  color: rgb(246, 245, 243);
+  font-size: 16px;
+  width: 250px;
+  height: 47px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
