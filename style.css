@@ -178,7 +178,6 @@ body, html {
   color: rgba(40, 40, 40, 0.659);
 }
 
-
 .block-with-logos {
   background: url('images/bg-logos-box.jpg');
   background-repeat: no-repeat;
@@ -387,7 +386,6 @@ body, html {
   font-size: 14px;
   text-indent: 10px;
 }
-
 
 .email-wrapper {
   display: flex;
